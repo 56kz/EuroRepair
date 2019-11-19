@@ -1,0 +1,89 @@
+/* MObile verison */
+.first-section {
+  height: 550px;
+  width: 100%;
+  background-image: url("covermobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second-section {
+  height: 1600px;
+  width: 100%;
+  background-image: url("carbonfiber.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.services {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+.page-header {
+  color:white;
+}
+
+.caption {
+  color: white !important;
+}
+
+.third-section {
+  height: 650px;
+  width: 100%;
+  background-image: url("coverthree.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact {
+  height: 300px;
+  width: 300px;
+}
+
+/* .map {
+  margin-top: 60px;
+} */
+
+#footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* PC version  */
+@media (min-width: 500px){
+  .first-section {
+    background-image: url("covertrytwo.png");
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* .page-header {
+    color:black;
+  } */
+
+  .second-section {
+    background-image: url("bmwmovil2.jpg");
+    height: 880px;
+    width: 100%;
+  }
+
+  .third-section {
+    background-image: url("erredos.png");
+  }
+
+  /* .map{
+    margin-top: 60px;
+  } */
+}
